@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Home</string>
+    <string name="butnote">NOTES</string>
+    <string name="butquestion">QUESTIONS</string>
+    <string name="help">HELP</string>
+    <string name="ktu">PASS WITH EASE</string>
+    <string name="courses">Courses</string>
+    <string name="programming">Programming</string>
+    <string name="hardware">Hardware</string>
+    <string name="intro_cs">Intro to Computer Science and IT.</string>
+    <string name="probability">Probability and Statistics.</string>
+    <string name="com_math">Intro to Computer Mathematics.</string>
+    <string name="africa">African Studies</string>
+    <string name="com_skills">Communication Skills</string>
+    <string name="info_tech">Information and Technology</string>
+    <string name="intro_networking">Introduction to Networking</string>
+    <string name="demo"></string>
+
+</resources>

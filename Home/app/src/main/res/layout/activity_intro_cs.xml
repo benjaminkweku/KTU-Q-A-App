@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".intro_cs">
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/intro_cs"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/but_title"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="10000dp"
+        android:background="@color/mid"
+        android:id="@+id/scroll">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimary"
+                android:id="@+id/relative1">
+
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/hard_image"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/hard"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="10000dp"
+                android:background="@color/white">
+
+
+                <com.github.barteksc.pdfviewer.PDFView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/pdf"/>
+
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

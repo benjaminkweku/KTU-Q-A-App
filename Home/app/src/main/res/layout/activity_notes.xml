@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mid"
+    tools:context=".notes">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:background="@color/mid">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mid">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@color/colorPrimaryDark">
+
+
+                <ImageView
+                    android:id="@+id/image_courses"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/front"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"/>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:text="@string/courses"
+                    android:layout_below="@id/image_courses"
+                    android:textColor="@color/white"
+                    android:textSize="40sp"
+                    android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="610dp"
+                android:background="@color/mid">
+
+                <Button
+                    android:id="@+id/programming"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/circle"
+                    android:onClick="programming"
+                    android:text="@string/programming"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/hardware"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/programming"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/circle"
+                    android:onClick="hardware"
+                    android:text="@string/hardware"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/intro_cs"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/hardware"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/circle"
+                    android:onClick="intro_cs"
+                    android:text="@string/intro_cs"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+                <Button
+                    android:id="@+id/probability"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/intro_cs"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/circle"
+                    android:onClick="prob"
+                    android:text="@string/probability"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+                <Button
+                    android:id="@+id/com_math"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/probability"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/circle"
+                    android:onClick="com_math"
+                    android:text="@string/com_math"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+                <Button
+                    android:id="@+id/com_skills"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/com_math"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/circle"
+                    android:onClick="com_skills"
+                    android:text="@string/com_skills"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+                <Button
+                    android:id="@+id/info_tech"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/com_skills"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/circle"
+                    android:onClick="info_tech"
+                    android:text="@string/info_tech"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+                <Button
+                    android:id="@+id/intro_networking"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/info_tech"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/circle"
+                    android:onClick="intro_networking"
+                    android:text="@string/intro_networking"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>
+
+
+
+
+
